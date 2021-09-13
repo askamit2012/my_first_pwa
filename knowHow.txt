@@ -1,0 +1,8 @@
+npx pwa-asset-generator logo.png icons --> Generates different icons for logo.png in icons folder. (the icons content for your manifest.json file. You can copy/paste it manually)
+
+npx serve to serve the app on localhost.
+
+workbox cdn -->
+importScripts(
+  "https://storage.googleapis.com/workbox-cdn/releases/6.2.0/workbox-sw.js"
+);
